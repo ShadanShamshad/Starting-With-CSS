@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Answer</title>
+    <style>
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        .wrapper a{
+            text-decoration: none;
+            color: red;
+            position: relative;
+        }
+        .wrapper a span{
+            position: absolute;
+            display: none;
+        }
+        .wrapper a:hover span{
+            display: block;
+            transform: translate(+30%, +50%) scale(1.2);
+            border-radius: 10px;
+        }
+
+        </style>
+</head>
+<body>
+        
+       
+        <div class="wrapper">
+            <a href="#"> <h1>Hover below to reveal a surprise</h1>
+                <span><img  src="https://images.pexels.com/photos/17216003/pexels-photo-17216003/free-photo-of-strawberry-muffins.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="300px" width="300px"></span>
+            </a>
+        
+        </div>
+</body>
+</html>
